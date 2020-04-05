@@ -70,6 +70,7 @@ services:
       - "8080:8080"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - jenkins_home:/var/jenkins_home 
     networks:
       custom:
         ipv4_address: 192.168.61.15
