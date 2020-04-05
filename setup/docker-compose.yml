@@ -10,6 +10,7 @@ networks:
 
 volumes:
   cs-ansible:
+  jenkins_home:
 
 services:
   control:
